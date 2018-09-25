@@ -172,8 +172,10 @@ body{
     background-color: darkorange;
     transition: all 0.5s ease-in;
 }
-.mlo
+.img
 {
     padding: 20px 35px;
     display: flex
+    height: 140px;
+    width: 140px;
 }    
