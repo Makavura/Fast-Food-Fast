@@ -139,6 +139,17 @@ body{
     font-family: "Indie Flower", cursive;
 }
 
+.btn-four
+{
+    
+    font-family: "Indie Flower", cursive;
+}
+
+.btn-three
+{
+    font-family: "Indie Flower", cursive;
+}
+
 .btn-one:hover
 {
     background-color: darkorange;
@@ -146,6 +157,17 @@ body{
 }
 
 .btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+.btn-three:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+.btn-four:hover
 {
     background-color: darkorange;
     transition: all 0.5s ease-in;
