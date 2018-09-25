@@ -168,13 +168,36 @@ body{
 
 .btn-four:hover
 {
-      <div class ="mlo">
     background-color: darkorange;
     transition: all 0.5s ease-in;
 }
-.img
+
+.order-1
 {
-    padding: 20px 35px;
-    height: 140px;
-    width: 140px;
-}    
+    height: 300px;
+    width: 300px;
+    margin-left: 33px;
+    margin-right: 8.25px;
+    position: left;
+    border-radius: 50%;
+}
+
+.order-2
+{
+    height: 300px;
+    width: 300px;
+    margin-left: 8.25px;
+    margin-right: 8.25px;
+    position: center;
+    border-radius: 50%;
+}
+
+.order-3
+{
+    height: 300px;
+    width: 300px;
+    margin-left: 8.25px;
+    margin-right: 33px;
+    position: right;
+    border-radius: 50%;
+}
