@@ -8,6 +8,10 @@ body{
     
     
 }
+.onfleek{
+    width: 180px;
+    height: 320px;
+}
 .logbox{
     width: 320px;
     height: 550px;
