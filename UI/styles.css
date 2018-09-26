@@ -9,8 +9,9 @@ body{
     
 }
 .onfleek{
-    width: 180px;
-    height: 320px;
+    width: 50%;
+    height: 50%;
+    align: center;
 }
 .logbox{
     width: 320px;
