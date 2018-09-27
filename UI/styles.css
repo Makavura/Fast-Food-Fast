@@ -197,10 +197,6 @@ div.desc {
     font-family: "Indie Flower", cursive;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .responsive {
     padding: 0 6px;
     float: left;
