@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/724216/pexels-photo-724216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.logbox{
+    width: 320px;
+    height: 550px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 40px;
+    
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.logbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.logbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.logbox input[type="text"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.logbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.logbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.logbox button:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.logbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.logbox a:hover
+{
+    color: #ffc107;
+}
+.webo
+{
+    position: center;
+    width: 1200px;
+    margin-left: 45px;
+    margin-top: 0px;
+    
+}
+.webo h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    font-family: "Indie Flower", cursive;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 360px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    
+    font-family: "Indie Flower", cursive;
+}
+
+.btn-two
+{
+    font-family: "Indie Flower", cursive;
+}
+
+.btn-four
+{
+    
+    font-family: "Indie Flower", cursive;
+}
+
+.btn-three
+{
+    font-family: "Indie Flower", cursive;
+}
+
+.btn-one:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+.btn-three:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+.btn-four:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+div.desc {   
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Indie Flower", cursive;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+.webo h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+}
